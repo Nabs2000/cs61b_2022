@@ -1,0 +1,62 @@
+You must answer at least 4 questions, but the remaining ones are optional. The main goal of this file is to get you thinking critically about your own work, but we will also use these self reflections at the end of the semester when we do our internal review of the course.
+
+ArrayDeque:
+
+Q: Give an example of at least one idea from the staff solution that would have made your solution better (if any).
+
+A: One idea that would have made my solution better was to utilize helper functions to get the index of the array for my get implementation. This would have saved me a lot of headache when checking for out of bounds issues, and how to correctly output the item that the user desires.
+
+Q: What's something you felt proud of in your code, if anything?
+
+A: One thing that I felt proud about was how I realized I could simplify my code by cutting out an unnecessary function. I cut my resizeDown() function because I realized that my resize() was doing the exact same thing, and just called that. Additionally, I used helper functions to check whether I would go out of bounds for my remove functions.
+
+Q: What's something that was particularly inelegant in your code, if anything?
+
+A:
+
+Q: What did you learn by talking to your partner about writing ArrayDeque?
+
+A:
+
+Q: What do you wish you would have known before writing ArrayDeque, if anything?
+
+A: Before writing ArrayDeque, I wish I would have understood the importance of modularizing my code. Although Prof. Hug emphasized this, I realized that many times when implementing a method, I would think about how this particular method would influence other method calls (resize in particular!)
+
+Q: If you wrote ArrayDeque again, what would you do differently, if anything?
+
+A:
+
+-----
+
+LinkedListDeque:
+
+Q: Give an example of at least one idea from the staff solution that would have made your solution better (if any).
+
+A: 
+Q: What's something you felt proud of in your code, if anything?
+
+A: One thing I felt proud of in my code was when I realized that 'this' was changing the pointers to the IntNodes for my getRecursive() method. To fix this, I used the Java Visualizer and saw how my pointers were being rewritten. I realized that I had to use a helper function to call getRecursive().
+
+Q: What's something that was particularly inelegant in your code, if anything?
+
+A: I did not use a helper method in this part of the project, and I felt like I was repeating myself a lot for the conditional statements I was using in my add and remove methods. This could have been avoided, though!
+
+Q: What did you learn by talking to your partner about writing LinkedListDeque?
+
+A:
+
+Q: What do you wish you would have known before writing LinkedListDeque, if anything?
+
+A:
+
+Q: If you wrote LinkedListDeque again, what would you do differently, if anything?
+
+A: I would completely understand how the sentinel node and using a circular implementation works rather than trying to code it up first!
+
+-----
+
+Meta:
+
+Q: Did you like this design review process? Anything we should do differently next time?
+
+A: I really enjoyed it because I was able to talk with another person about my code and see how another person implemented it differently!

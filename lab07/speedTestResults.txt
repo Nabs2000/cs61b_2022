@@ -1,0 +1,27 @@
+RANDOM TEST
+
+String size: 4
+# strings: 1000000
+
+class bstmap.BSTMap: 0.85 sec
+Java's Built-in TreeMap: 0.67 sec
+Java's Built-in HashMap: 0.25 sec
+
+String size: 4
+# strings: 10000000
+
+class bstmap.BSTMap: 9.88 sec
+Java's Built-in TreeMap: 8.89 sec
+Java's Built-in HashMap: 2.70 sec
+
+INSERTINORDER TEST
+
+# strings: 1000000
+
+Java's Built-in TreeMap: 0.32 sec
+Java's Built-in HashMap: 0.23 sec
+
+# strings: 10000000
+
+Java's Built-in TreeMap: 5.16 sec
+Java's Built-in HashMap: 4.75 sec
